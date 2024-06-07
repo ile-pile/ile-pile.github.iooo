@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .product, .cart {
+            border: 1px solid #ccc;
+            padding: 16px;
+            margin: 16px;
+            text-align: center;
+        }
+
+        .product h2 {
+            font-size: 1.5em;
+        }
+
+        .cart {
+            border-color: #000;
+        }
+
+        .cart-item {
+            border-bottom: 1px solid #ccc;
+            padding: 8px 0;
+        }
+
+        .cart-item:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Products</h1>
+    <div id="product-list">
+        <!-- Products will be listed here -->
+    </div>
+
+    <h1>Shopping Cart</h1>
+    <div id="cart">
+        <p>Items in cart: <span id="item-count">0</span></p>
+        <p>Total: $<span id="total-price">0.00</span></p>
+        <div id="cart-items">
+            <!-- Added products will be displayed here -->
+        </div>
+    </div>
+
+    <script>
+        const products = [
+            { id: 1, name: 'Product 1', price: 10.00 },
+            { id: 2, name: 'Product 2', price: 20.00 },
+            { id: 3, name: 'Product 3', price: 30.00 }
+        ];
+
+        const productList = document.getElementById('product-list');
+
+        products.forEach(product => {
+            const productDiv = document.createElement('div');
+            productDiv.classList.add('product');
+            productDiv.innerHTML = `
+                <h2>${product.name}</h2>
+                <p>Price: $${product.price.toFixed(2)}</p>
+                <button onclick="addToCart(${product.id})">Add to Cart</button>
+            `;
+            productList.appendChild(productDiv);
+        });
+
+        const cart = [];
+        let totalPrice = 0;
+
+        function addToCart(productId) {
+            const product = products.find(p => p.id === productId);
+            cart.push(product);
+            totalPrice += product.price;
+            updateCart();
+        }
+
+        function updateCart() {
+            const itemCount = document.getElementById('item-count');
+            const totalPriceElement = document.getElementById('total-price');
+            const cartItems = document.getElementById('cart-items');
+
+            itemCount.textContent = cart.length;
+            totalPriceElement.textContent = totalPrice.toFixed(2);
+
+            // Clear previous cart items
+            cartItems.innerHTML = '';
+
+            // Add current cart items
+            cart.forEach(item => {
+                const cartItem = document.createElement('div');
+                cartItem.classList.add('cart-item');
+                cartItem.textContent = `${item.name} - $${item.price.toFixed(2)}`;
+                cartItems.appendChild(cartItem);
+            });
+        }
+    </script>
+</body>
+</html>

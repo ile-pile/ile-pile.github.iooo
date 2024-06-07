@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+ <body style="background-color: palevioletred;">
+
+    <h1 style="color:goldenrod;background:rgb(12, 10, 1); text-align:center ;">PENELOPE</h1>
+    <form id="search-form">
+        <input type ="text" id="search-input" placeholder="Search...">
+        <button type="submit" style="position:static;">Go!</button>
+    </form>
+</header>
+<main id="content">
+    <article>
+    </article>
+   <br>
+   <br>
+    
+ <table align="center" width="50%" cellspacing="100px">
+   <tr>
+    <td><a href="http://ГРИМ">ГРИМ</td>
+        <td> <a href="http://КОСА">КОСА</td>
+        <td><a href="http://ТЯЛО">ТЯЛО</td>
+        <td><a href="http://ПАРФЮМИ И АКСЕСОАРИ">ПАРФЮМИ И АКСЕСОАРИ</td>
+        <td><a href="http://ПОДАРЪЦИ И ДОБАВКИ">ПОДАРЪЦИ И ДОБАВКИ</td>
+
+   </tr>
+    <tr>
+        <td><a href="http://ГРИМ">ГРИМ</a>
+            <br>
+         <a href="#section2">Лице</a>
+         
+         <br>
+        
+         <a href="#section3">Очи</a>
+         <br>
+        
+         <a href="#section4">Вежди</a><br>
+         <a href="#section5">Устни</a><br>
+
+         <a href="#section6">Нокти</a><br>
+        
+         <a href="#section7">Комплекти</a><br></td>
+   
+      <td> <a href="http://КОСА">КОСА</a>
+   
+        <br>
+          
+           <a href="#section8">Грижа за коса</a>
+         <br>
+        
+         <a href="#section9">Стилизанти за коса</a><br>
+        
+         <a href="#section10">Терапия за коса</a><br>
+        
+         <a href="#section11">Бои за коса</a><br></td>
+        <td><a href="http://ТЯЛО">ТЯЛО</a>
+   
+            <br>
+              
+               <a href="#section12">Грижа за тялото</a>
+             <br>
+            
+             <a href="#section13">Душ и вана</a><br>
+            
+             <a href="#section14">Продукти за хигиена</a><br>
+            
+             <a href="#section15">Епилация и бръснене</a><br>
+            
+            </td>
+            <td><a href="http://ПАРФЮМИ И АКСЕСОАРИ">ПАРФЮМИ И АКСЕСОАРИ</a>
+   
+                <br>
+                  
+                   <a href="#section16">Дамски парфюми</a>
+                 <br>
+                
+                 <a href="#section17">Мъжки парфюми</a><br>
+                
+                 <a href="#section18">Аксесоари за коса</a><br>
+                
+                 <a href="#section19">Аксесоари за грим</a><br>
+                 <a href="#section20">Аксесоари за нокти</a><br>
+                </td>
+                <td> <a href="http://ПОДАРЪЦИ И ДОБАВКИ">ПОДАРЪЦИ И ДОБАВКИ</a>
+   
+                    <br>
+                      
+                       <a href="#section21">Подаръци за нея</a>
+                     <br>
+                    
+                     <a href="#section22">Подаръци за него</a><br>
+                    
+                     <a href="#section23">Добавки за кожа, коса и нокти</a><br>
+                    
+                     <a href="#section24">Съвети за красота</a><br>
+                     <a href="#section25">Идеи за подаръци</a><br></td>
+        </tr>
+</table>
+<ul style="font-size: larger;color: black;"></ul>
+    <a href="http://ГРИМ">ГРИМ</a>
+    <br>
+ <a href="#section2">Лице</a>
+ 
+ <br>
+
+ <a href="#section3">Очи</a>
+ <br>
+
+ <a href="#section4">Вежди</a><br>
+
+ <a href="#section5">Устни</a><br>
+
+ <a href="#section6">Нокти</a><br>
+
+ <a href="#section7">Комплекти</a><br>
+
+
+<br>
+
+<br>
+
+   <a href="http://КОСА">КОСА</a>
+   
+<br>
+  
+   <a href="#section8">Грижа за коса</a>
+ <br>
+
+ <a href="#section9">Стилизанти за коса</a><br>
+
+ <a href="#section10">Терапия за коса</a><br>
+
+ <a href="#section11">Бои за коса</a><br>
+
+<br>
+<br>
+
+   <a href="http://ТЯЛО">ТЯЛО</a>
+   
+    <br>
+      
+       <a href="#section12">Грижа за тялото</a>
+     <br>
+    
+     <a href="#section13">Душ и вана</a><br>
+    
+     <a href="#section14">Продукти за хигиена</a><br>
+    
+     <a href="#section15">Епилация и бръснене</a><br>
+
+     <br>
+     <br>
+
+     <a href="http://ПАРФЮМИ И АКСЕСОАРИ">ПАРФЮМИ И АКСЕСОАРИ</a>
+   
+    <br>
+      
+       <a href="#section16">Дамски парфюми</a>
+     <br>
+    
+     <a href="#section17">Мъжки парфюми</a><br>
+    
+     <a href="#section18">Аксесоари за коса</a><br>
+    
+     <a href="#section19">Аксесоари за грим</a><br>
+     <a href="#section20">Аксесоари за нокти</a><br>
+     <br>
+     <br>
+
+    <a href="http://ПОДАРЪЦИ И ДОБАВКИ">ПОДАРЪЦИ И ДОБАВКИ</a>
+   
+    <br>
+      
+       <a href="#section21">Подаръци за нея</a>
+     <br>
+    
+     <a href="#section22">Подаръци за него</a><br>
+    
+     <a href="#section23">Добавки за кожа, коса и нокти</a><br>
+    
+     <a href="#section24">Съвети за красота</a><br>
+     <a href="#section25">Идеи за подаръци</a><br>
+
+<br>
+<br>
+
+</ul>
+
+</body>
+</html>

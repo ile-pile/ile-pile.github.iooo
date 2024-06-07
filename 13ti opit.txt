@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head
+><link rel="stylesheet" href="style.css">
+<title>Page Title</title><link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+ <body style="background-color: pink;">
+
+    <h1 style="color:silver;background:rgb(12, 10, 1); text-align:center ;font-size: x-large;font-size: 48px;">PENELOPE</h1>
+    <form id="search-form" style="text-align: right;">
+        <input type ="text" id="search-input" placeholder="Search...">
+        <button type="submit" style="position:static;">Go!</button>
+    </form>
+   <table cellspacing="10px">
+  <tr cellspacing="30px" >
+  <a href="za nas.html" style="text-decoration: double;font-size: x-large;color: black;font-weight: bold;"class="spaced-link">
+        За нас     </a>   	 <a href="kontakti.html" style="text-decoration: double;font-size: x-large;color: black;font-weight: bold;" class="spaced-link">
+            Контакти</a>
+        
+  </tr>
+  <tr></tr>
+    <tr>
+        <td style="font-size: xx-large;"> <div class="contact-us">
+            <a href="https://www.instagram.com/yourprofile" target="_blank" class="instagram-link">
+                <i class="fab fa-instagram" style="font-size: xx-large;"></i>
+            </a>
+        </div></td>
+        <td style="font-size: xx-large;">
+            <div class="contact-us">
+    
+                <a href="https://www.facebook.com/yourprofile" target="_blank" class="social-link facebook-link">
+                    <i class="fab fa-facebook" style="font-size: xx-large;"></i>
+                </a>
+            </div>
+        </td>
+        <td style="font-size: xx-large;">
+            <div class="contact-us">
+        
+                <a href="https://www.tiktok.com/@yourprofile" target="_blank" class="social-link tiktok-link">
+                    <i class="fab fa-tiktok"></i> 
+                </a>
+            </div>
+        </td>
+        <td style="font-size: xx-large;">
+            <div class="contact-us">
+       
+                <a href="https://www.youtube.com/c/yourprofile" target="_blank" class="social-link youtube-link">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </td>
+    </tr>
+   
+
+       
+   
+
+    
+   </table>
+   
+</header>
+<main id="content">
+    <article>
+    </article>
+    
+ <table align="center" width="99%" cellspacing="70px">
+    
+    <tr>
+    <td align="center">  <a href="2str">
+        <img src="jjj.jpg" alt="Make-up image" class="circle-image"width="25px"height="25px">
+    </a>
+    <br><br>
+    <a href="2str" style="text-decoration: double;font-size: xx-large;color: black;font-weight: bold;">ГРИМ</td>
+        <td align="center">  <a href="3str">
+            <img src="hh.webp" alt="Make-up image" class="circle-image"width="25px"height="25px">
+        </a>
+        <br>
+        <br>
+        <a href="3str" style="text-decoration: double;font-size: xx-large;color: black;font-weight: bold;">КОСА</td>
+        <td align="center"> <a href="4str">
+            <img src="bb3.jpg" alt="Make-up image" class="circle-image"width="25px"height="25px">
+        </a>
+        <br><br><a href="4str" style="text-decoration: double;font-size: xx-large;color: black;font-weight: bold;">ТЯЛО</td>
+        <td align="center"> <a href="5str">
+            <img src="nn4.jpg" alt="Make-up image" class="circle-image"width="25px"height="25px">
+        </a>
+        <br><br><a href="5str" style="text-decoration: double;font-size: xx-large;color: black;font-weight: bold;">ПАРФЮМИ И АКСЕСОАРИ</td>
+        
+
+   </tr>
+    <tr align="center">
+        <td>
+         <a href="lice" style="text-decoration: double;font-size: x-large;color: black;font-weight: bold;">Лице</a>
+         
+         
+         <br>
+         <br>
+        
+         <a href="ochi" style="text-decoration: double;font-size: x-large;color: black;font-weight: bold;">Очи</a>
+         <br>
+         <br>
+         <a href="vejdi"style="text-decoration: double;font-size: x-large;color: black;font-weight: bold;">Вежди</a><br>
+         <br>
+         <a href="ustni"style="text-decoration: double;font-size: x-large;color: black;font-weight: bold;">Устни</a><br>
+         <br>
+        
+        
+         </td>
+   
+      <td>
+          
+           <a href="grija za kosa"style="text-decoration: double;font-size: x-large;color: black;font-weight: bold;">Грижа за коса</a>
+         <br>
+         <br>
+         <a href="stilizanti za kosa"style="text-decoration: double;font-size: x-large;color: black;font-weight: bold;">Стилизанти за коса</a><br>
+         <br>
+         
+         <a href="boi za kosa"style="text-decoration: double;font-size: x-large;color: black;font-weight: bold;">Бои за коса</a><br></td>
+        <td width="30%">
+              
+               <a href="grija za tqloto"style="text-decoration: double;font-size: x-large;color: black;font-weight: bold;">Грижа за тялото</a>
+             <br>
+             <br>
+             <a href="dush i vana"style="text-decoration: double;font-size: x-large;color: black;font-weight: bold;">Душ и вана</a><br>
+             <br>
+             <a href="produkti za higiena"style="text-decoration: double;font-size: x-large;color: black;font-weight: bold;">Продукти за хигиена</a><br>
+            
+             <br>
+             <br>
+            </td>
+            <td width="35%">
+                  
+                   <a href="damski parfumi"style="text-decoration: double;font-size: x-large;color: black;font-weight: bold;">Дамски парфюми</a>
+                 <br>
+                 <br>
+                 <a href="mujki parfumi"style="text-decoration: double;font-size: x-large;color: black;font-weight: bold;">Мъжки парфюми</a><br>
+                 <br>
+                 <a href="aksesoari za kosa"style="text-decoration: double;font-size: x-large;color: black;font-weight: bold;">Аксесоари за коса</a><br>
+                 <br>
+                 <a href="aksesoari za grim"style="text-decoration: double;font-size: x-large;color: black;font-weight: bold;">Аксесоари за грим</a><br>
+                 <br>
+                </td>
+                
+        </tr>
+</table>
+<ul style="font-size: larger;color: black;"></ul>
+   
+</ul>
+
+</body>
+</html>
